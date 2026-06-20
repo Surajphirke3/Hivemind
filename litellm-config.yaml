@@ -1,0 +1,20 @@
+model_list:
+  - model_name: groq-llama-3.1-70b
+    litellm_params:
+      model: groq/llama-3.1-70b-versatile
+      api_key: "os.environ/GROQ_API_KEY"
+
+  - model_name: groq-llama-3.1-70b
+    litellm_params:
+      model: openrouter/meta-llama/llama-3.1-70b-instruct
+      api_key: "os.environ/OPENROUTER_API_KEY"
+
+  - model_name: gpt-4o
+    litellm_params:
+      model: openai/gpt-4o
+      api_key: "os.environ/OPENAI_API_KEY"
+
+router_settings:
+  routing_strategy: latency-based-routing
+  allowed_fails: 1
+  cooldown_time: 30

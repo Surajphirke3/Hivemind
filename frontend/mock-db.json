@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "a42eb571-bf89-4395-947b-9f01fc04b5f3",
+      "created_at": "2026-06-20T10:51:19.671Z",
+      "wallet_address": "0xd53ffd119c57f7335d3295637fddbabf47b8bdef"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "269d33c2-4481-4ffc-bf63-038fc1abf3cb",
+      "created_at": "2026-06-20T10:58:07.591Z",
+      "creator_id": "a42eb571-bf89-4395-947b-9f01fc04b5f3",
+      "title": "adf",
+      "problem_statement": "afdgsfhd",
+      "goal": "dgfh",
+      "status": "pending"
+    },
+    {
+      "id": "71aea6a6-a489-44b7-b02b-f7de09222801",
+      "created_at": "2026-06-20T10:58:27.953Z",
+      "creator_id": "a42eb571-bf89-4395-947b-9f01fc04b5f3",
+      "title": "adf",
+      "problem_statement": "afdgsfhd",
+      "goal": "dgfh",
+      "status": "pending"
+    },
+    {
+      "id": "a8a261c6-43f7-4eea-af00-59a324102015",
+      "created_at": "2026-06-20T10:59:58.557Z",
+      "creator_id": "a42eb571-bf89-4395-947b-9f01fc04b5f3",
+      "title": "Monad DeFi Optimizer",
+      "problem_statement": "Need to optimize yield strategies on Monad Testnet protocols",
+      "goal": "Maximize risk-adjusted returns using agent consensus",
+      "status": "pending"
+    },
+    {
+      "id": "a2f86139-9728-41da-9698-d71355b0ab5f",
+      "created_at": "2026-06-20T11:08:27.391Z",
+      "creator_id": "a42eb571-bf89-4395-947b-9f01fc04b5f3",
+      "title": "Monad Yield Optimizer",
+      "problem_statement": "Optimize liquidity provision across Monad AMMs.",
+      "goal": "Maximize fee generation while mitigating impermanent loss.",
+      "status": "pending"
+    }
+  ],
+  "agents": [
+    {
+      "id": "772ed453-cb0f-4eea-a16d-e4d1e7c93e3c",
+      "created_at": "2026-06-20T11:14:58.746Z",
+      "workspace_id": "a2f86139-9728-41da-9698-d71355b0ab5f",
+      "role": "research",
+      "status": "queued"
+    },
+    {
+      "id": "ce17f32e-1545-4e4d-b6df-93bb3ac0a192",
+      "created_at": "2026-06-20T11:14:58.747Z",
+      "workspace_id": "a2f86139-9728-41da-9698-d71355b0ab5f",
+      "role": "market",
+      "status": "queued"
+    },
+    {
+      "id": "b79a49d2-3a29-4cf5-b0ac-2e769b9bfca0",
+      "created_at": "2026-06-20T11:14:58.747Z",
+      "workspace_id": "a2f86139-9728-41da-9698-d71355b0ab5f",
+      "role": "risk",
+      "status": "queued"
+    },
+    {
+      "id": "308b79cb-8a44-434c-be36-815b67d34ae6",
+      "created_at": "2026-06-20T11:14:58.747Z",
+      "workspace_id": "a2f86139-9728-41da-9698-d71355b0ab5f",
+      "role": "technical",
+      "status": "queued"
+    },
+    {
+      "id": "5004e531-3f2f-4274-b4fd-0391b994b1a5",
+      "created_at": "2026-06-20T11:14:58.747Z",
+      "workspace_id": "a2f86139-9728-41da-9698-d71355b0ab5f",
+      "role": "critic",
+      "status": "queued"
+    },
+    {
+      "id": "6c787c49-56a1-429b-baad-ef2d1579b094",
+      "created_at": "2026-06-20T11:14:58.747Z",
+      "workspace_id": "a2f86139-9728-41da-9698-d71355b0ab5f",
+      "role": "synthesizer",
+      "status": "queued"
+    }
+  ],
+  "contributions": [],
+  "consensus": [],
+  "reports": []
+}
